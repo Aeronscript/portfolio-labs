@@ -548,11 +548,9 @@ function DomainCard({
       transition={{ duration: 0.4, delay: index * 0.06, ease: easeOut }}
       className="group relative rounded-3xl p-[2px] overflow-hidden shadow-xl shadow-violet-600/10 hover:shadow-2xl hover:shadow-violet-600/20 transition-all"
     >
-      <motion.div
+      <div
         aria-hidden
-        animate={{ rotate: 360 }}
-        transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-        className="absolute -inset-[50%] bg-[conic-gradient(from_0deg,transparent_0_320deg,#8b5cf6_340deg,#ec4899_360deg)] opacity-40 group-hover:opacity-90 transition-opacity"
+        className="absolute inset-0 rounded-3xl bg-gradient-to-br from-violet-500/60 via-fuchsia-400/25 to-violet-600/60 opacity-50 group-hover:opacity-100 transition-opacity"
       />
       <div className="relative rounded-[22px] bg-card p-4 sm:p-6 md:p-8 backdrop-blur-xl overflow-hidden">
       {/* Copy Feedback Toast inside card */}
