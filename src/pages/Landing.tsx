@@ -1664,6 +1664,19 @@ function AboutView({
                 >
                   {copy.closing}
                 </motion.p>
+
+                {/* Copyright */}
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true, margin: "-40px" }}
+                  transition={{ duration: 0.6, ease: easeOut }}
+                  className="mt-16 border-t border-violet-100 pt-6 dark:border-white/5"
+                >
+                  <p className="text-center font-display text-[11px] font-medium uppercase tracking-[0.3em] text-muted-foreground/60">
+                    © 2026 Aeronscript — Tous droits réservés
+                  </p>
+                </motion.div>
               </motion.div>
             </AnimatePresence>
           </div>
