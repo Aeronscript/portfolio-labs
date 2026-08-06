@@ -1,0 +1,17 @@
+{
+  "name": "Mohamed Amine — Creative Developer & AI Builder",
+  "short_name": "Mohamed Amine",
+  "description": "Portfolio de Mohamed Amine — Creative Developer & AI Builder. Développement web, intelligence artificielle et design de produits numériques.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
