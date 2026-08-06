@@ -1,0 +1,17 @@
+{
+  "name": "Aeronscript — Creative Developer & AI Builder",
+  "short_name": "Aeronscript",
+  "description": "Portfolio d'Aeronscript — Creative Developer & AI Builder. Développement web, intelligence artificielle et design de produits numériques.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/favicon.svg?v=4",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
