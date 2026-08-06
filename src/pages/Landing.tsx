@@ -31,8 +31,6 @@ import { cn } from "@/lib/utils";
 import { TiktokIcon } from "@/components/TiktokIcon";
 import { SkillsView } from "@/components/SkillsView";
 
-import avatarLight from "@/assets/images/avatar_light_1786014522385.jpg";
-import avatarDark from "@/assets/images/blue_verification_logo_1786014934033.jpg";
 import banner from "@/assets/images/banner_1786014506861.jpg";
 
 /* ------------------------------------------------------------------ */
@@ -40,8 +38,8 @@ import banner from "@/assets/images/banner_1786014506861.jpg";
 /* ------------------------------------------------------------------ */
 
 const ASSETS = {
-  avatarLight,
-  avatarDark,
+  avatarLight: "/assets/bb9ad2a97b7d12fb381c6f61b91d5e11.jpg",
+  avatarDark: "/assets/58672490508f6409279323aae99c944d.jpg",
   banner,
 };
 
